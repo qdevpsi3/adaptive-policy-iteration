@@ -35,5 +35,5 @@ $ python deepsea.py
 ```
 
 <p align="center">
-<img src="./notebooks/deepsea.png" width="500">
+<img src="./notebooks/deepsea_results.png" width="500">
 </p>
