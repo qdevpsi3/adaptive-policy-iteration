@@ -105,7 +105,7 @@ class Buffer:
         self._rewards.append(new_timestep.reward)
 
         if new_timestep.last():
-            raise ValueError(
+            raise AssertionError(
                 'Environment should have infinite horizon (see paper).')
 
     def get(self) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
